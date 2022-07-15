@@ -48,4 +48,12 @@
 		<fecha>14/7/2022</fecha>
 		<hora>19:08</hora>
 	</cd>
+	<cd>
+		<id>7</id>
+		<objeto>intento</objeto>
+		<precio>30000</precio>
+		<metodo>Efectivo</metodo>
+		<fecha>15/7/2022</fecha>
+		<hora>20:00</hora>
+	</cd>
 </ventas>
