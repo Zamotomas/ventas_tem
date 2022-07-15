@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ventas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<cd>
+		<id>1</id>
+		<objeto>Silla escritorio</objeto>
+		<precio>15000</precio>
+		<metodo>Efectivo</metodo>
+		<fecha>11/7/2022</fecha>
+		<hora>00:00</hora>
+	</cd>
+	<cd>
+		<id>2</id>
+		<objeto>4 Copas Grandes</objeto>
+		<precio>5000</precio>
+		<metodo>Efectivo</metodo>
+		<fecha>11/7/2022</fecha>
+		<hora>00:00</hora>
+	</cd>
+	<cd>
+		<id>3</id>
+		<objeto>2 Siilas plegables cafes</objeto>
+		<precio>30000</precio>
+		<metodo>Efectivo</metodo>
+		<fecha>14/7/2022</fecha>
+		<hora>12:13</hora>
+	</cd>
+	<cd>
+		<id>4</id>
+		<objeto>parrilla electrica</objeto>
+		<precio>5000</precio>
+		<metodo>Transferencia</metodo>
+		<fecha>14/7/2022</fecha>
+		<hora>14:14</hora>
+	</cd>
+	<cd>
+		<id>5</id>
+		<objeto>Dispensador de Agua Roto</objeto>
+		<precio>15000</precio>
+		<metodo>Efectivo</metodo>
+		<fecha>14/7/2022</fecha>
+		<hora>15:44</hora>
+	</cd>
+	<cd>
+		<id>6</id>
+		<objeto>2 Veladores</objeto>
+		<precio>15000</precio>
+		<metodo>Efectivo</metodo>
+		<fecha>14/7/2022</fecha>
+		<hora>19:08</hora>
+	</cd>
+</ventas>
