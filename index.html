@@ -19,12 +19,15 @@
         <th scope="col"></th>
         <th scope="col">Total</th>
         <th scope="col"></th>
+        <th scope="col"></th>
+        <th scope="col"></th>
+        <th scope="col"></th>
+        <th scope="col"></th>
+        <th scope="col"></th>
         <th scope="col"><span id="input"></span></th>
         <!--Total Ventas-->
         <th scope="col"></th>
-
-        <th scope="col">Tiempo: 4 Dias</th>
-        <th scope="col">ultima Actualizacion: 14/7, 20:03</th>
+        <th scope="col">Ultima Actualización <span id="ultima"></span></th>
       </tr>
     </thead>
 
@@ -35,6 +38,7 @@
   <script>
 
     var total = 0
+    var ultima =""
     function loadDoc() {
       const xhttp = new XMLHttpRequest();
       xhttp.onload = function () {
@@ -57,7 +61,7 @@
       let table = "<tr><th>N°</th><th>Nombre Objeto</th><th>Precio</th><th>Metodo de Pago</th><th>Fecha del pago</th><th>Hora del pago</th></tr>";
       for (let i = 0; i < x.length; i++) {
         total = total + (Number(x[i].getElementsByTagName("precio")[0].childNodes[0].nodeValue));
-        console.log(total)
+        console.log(total);
         table += "<tr><td>" +
           x[i].getElementsByTagName("id")[0].childNodes[0].nodeValue +
           "</td><td>" +
@@ -71,6 +75,7 @@
           "</td><td>" +
           x[i].getElementsByTagName("hora")[0].childNodes[0].nodeValue +
           "</td></tr>"
+        ultima= x[i].getElementsByTagName("fecha")[0].childNodes[0].nodeValue +","+ x[i].getElementsByTagName("hora")[0].childNodes[0].nodeValue
 
 
       }
@@ -78,6 +83,7 @@
       total = format(total)
       document.getElementById("ventas").innerHTML = table;
       document.getElementById('input').innerHTML = total;
+      document.getElementById('ultima').innerHTML = ultima;
 
     }
 
