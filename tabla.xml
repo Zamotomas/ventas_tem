@@ -58,10 +58,10 @@
 	</cd>
 	<cd>
 		<id>8</id>
-		<objeto>segundo</objeto>
-		<precio>0</precio>
-		<metodo>efectivo</metodo>
-		<fecha>15/7/2022</fecha>
-		<hora>21:20</hora>
+		<objeto>Sillon Amarillo</objeto>
+		<precio>20000</precio>
+		<metodo>Transferencia</metodo>
+		<fecha>17/7/2022</fecha>
+		<hora>13:24</hora>
 	</cd>
 </ventas>
