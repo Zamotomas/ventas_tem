@@ -64,4 +64,12 @@
 		<fecha>17/7/2022</fecha>
 		<hora>13:24</hora>
 	</cd>
+	<cd>
+		<id>9</id>
+		<objeto>Ollas Greda</objeto>
+		<precio>25000</precio>
+		<metodo>Transferencia</metodo>
+		<fecha>18/7/2022</fecha>
+		<hora>18:05</hora>
+	</cd>
 </ventas>
