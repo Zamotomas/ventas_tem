@@ -72,4 +72,28 @@
 		<fecha>18/7/2022</fecha>
 		<hora>18:05</hora>
 	</cd>
+	<cd>
+		<id>10</id>
+		<objeto>3 Floreros</objeto>
+		<precio>5000</precio>
+		<metodo>Efectivo</metodo>
+		<fecha>20/07/2022</fecha>
+		<hora>20:34</hora>
+	</cd>
+	<cd>
+		<id>11</id>
+		<objeto>Set mortero,tacitas,platos</objeto>
+		<precio>15000</precio>
+		<metodo>Efectivo</metodo>
+		<fecha>22/07/2022</fecha>
+		<hora>21:07</hora>
+	</cd>
+	<cd>
+		<id>12</id>
+		<objeto>perdida</objeto>
+		<precio>-50000</precio>
+		<metodo>Efectivo</metodo>
+		<fecha>22/07/2022</fecha>
+		<hora>21:07</hora>
+	</cd>
 </ventas>
